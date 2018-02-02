@@ -113,9 +113,9 @@ class Main {
 					
 				    	throw new noValueEx("Error: No Converter type given");
 				
-					if (NumValueinStr.length>0) 
+					if (NumValueinStr.length>1) 
 						
-						throw new multiValueEx("Error: Multiple converters given: please give single  given");
+						throw new multiValueEx("Error: Multiple converters given: please give single  value");
 					
 					if(key.equals("DollarToEuro") || key.equals("EuroToDollar") ||       
 							key.equals("invertDollarToEuro") || key.equals("invertEuroToDollar") ||
